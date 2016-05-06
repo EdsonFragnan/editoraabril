@@ -1,3 +1,3 @@
 # Editora Abril
-# Melhores visualização:
+# Melhor visualização:
 Grandes monitores e mobile até 320x500
