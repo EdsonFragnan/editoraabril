@@ -1,0 +1,273 @@
+/* 
+Theme Name: Tema 4 Rodas
+Theme URI: localhost/
+Description: Tema criado para o teste da editora Abril
+Version: 1.0 
+Author: Edson Fragnan 
+*/
+
+a {
+	text-decoration: none !important;
+}
+
+body {
+	background-color: #e6e6e6 !important;
+}
+
+/* Propaganda */
+
+.propaganda {
+	background: #242424;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+
+/* Menu */
+
+.navbar-inverse li:hover {
+  background: #242424;
+  height: 60px;
+  border-color: 1px #000 !important;
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: relative !important;
+}
+
+.navbar {
+    margin-bottom: 0px !important; 
+}
+
+.navbar-nav li a {
+	color: #FFF !important;
+	padding: 7px !important;
+    padding-top: 24px !important;
+	font-weight: bold !important;
+}
+
+.navbar-brand {
+    padding: 11px 15px !important;
+}
+
+.menuNav {
+	background: #242424 !important;
+	height: 30px;
+}
+
+.menuNav .navbar-nav li:first-child { 
+    background-color: #ca1e1e;
+}
+
+.menuNav .navbar-nav li:first-child:hover { 
+    text-decoration: none !important;
+}
+
+.menuNav .navbar-nav li .acessadosMenu:hover {
+	background-color: #ca1e1e !important;
+}
+
+.menuNav .navbar-nav li a {
+    color: #FFF !important;
+    padding: 5px !important;
+    padding-top: 5px !important; 
+    font-weight: bold !important;
+}
+
+.menuNav li:hover {
+	text-decoration: underline; 
+	color: #FFF;
+}
+
+.menuNav a:hover {
+	background-color: #242424 !important;
+}
+
+.menuNav>li>a:hover {
+    text-decoration: none;
+    background-color: #242424 !important;
+}
+
+.caixaPesquisar {
+	float: right;
+	padding-top: 10px !important;
+	margin-right: 15px !important;
+}
+
+.pesquisar {
+	width: 100px !important;
+	border-radius: 0px !important;
+}
+
+.btnPesquisa {
+	border-radius: 0px !important;
+}
+
+/* Noticias destaque */
+
+.navbar-inverse {
+    background-color: #ed1c24 !important;
+}
+
+.todasNoticiasPrincipais {
+	margin-top: 5px;
+}
+
+.noticiasMaisAcessada {    
+	background-image: url('http://msalx.quatrorodas.abril.com.br/2016/05/03/1154/ye9qD/qr-680-compara-0112.jpeg?1462287717');
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+.pontoMaisAcessados {
+	margin-top: 205px;
+	text-align: right;
+}
+
+.pontoMaisAcessados h3{
+    font-weight: bold;
+    color: #FFF;
+}
+
+.pontoMaisAcessados p {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.noticiasHome1 {
+	background-image: url('http://msalx.quatrorodas.abril.com.br/2016/05/05/1156/yiLzF/bugatti-chiron.jpeg?1462460303');
+	background-repeat: no-repeat;
+	font-weight: bold;
+	height: 250px;
+}
+
+.noticiasHome2 {
+	background-image: url('http://msalx.quatrorodas.abril.com.br/2016/05/04/1910/yiLzF/honda-hr-v-11.jpeg?1462399941');
+	background-repeat: no-repeat;
+	height: 250px;
+}
+
+.noticiasHome3 {
+	background-image: url('http://msalx.quatrorodas.abril.com.br/2016/05/04/1910/yiLzF/honda-hr-v-11.jpeg?1462399941');
+	background-repeat: no-repeat;
+	height: 250px;
+}
+
+.noticiasHome4 {
+	background-image: url('http://msalx.quatrorodas.abril.com.br/2016/05/04/1415/yiLzF/chevrolet-cruze-foto-1-1024x767.jpeg?1462382222');
+	background-repeat: no-repeat;
+	height: 250px;
+}
+
+.pontoMaisAcessadosMenores {
+	margin-top: 0px;
+	text-align: right;
+}
+
+.pontoMaisAcessadosMenores h5{
+    font-weight: bold;
+    color: #FFF;
+}
+
+.pontoMaisAcessadosMenores p {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.pontoMaisAcessadosMenores .promocao {
+	background: red;
+	padding-right: 8px;
+    padding-left: 8px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 168px;
+	float: right;
+}
+
+/* Noticias menores */
+
+.noticiasMenoresImg1 {
+	background-image: url('http://msalx.quatrorodas.abril.com.br/2016/05/04/1214/z3KiQ/toyota-prius-2012-com-placa-do-brasil.jpeg?1462374937');
+	background-repeat: no-repeat;
+	height: 208px;
+}
+
+.noticiasMenoresImg2 {
+	background-image: url('http://msalx.quatrorodas.abril.com.br/2016/05/03/1941/z3KiQ/qr-680-classicos-corcel-01-tif.jpeg?1462315405');
+	background-repeat: no-repeat;
+	height: 208px;
+}
+
+.noticiasMenoresImg3 {
+	background-image: url('http://msalx.quatrorodas.abril.com.br/2016/04/18/1742/z3KiQ/vinheta-03-copy.jpeg?1461012238');
+	background-repeat: no-repeat;
+	height: 208px;
+}
+
+.noticiasMenoresImg4 {
+	background-image: url('http://msalx.quatrorodas.abril.com.br/2016/05/03/1101/z3KiQ/nissan_kicks_16.jpeg?1462300827');
+	background-repeat: no-repeat;
+	height: 208px;
+}
+
+.link p {
+	color: #000;
+}
+
+.linkNoticias {
+	color: red !important;
+}
+
+.glyphicon-stop {
+	color: red;
+	margin-top: 180px;
+	margin-left: 10px;
+}
+
+.noticiasMenoresImg1 p {color: #FFF}
+.noticiasMenoresImg2 p {color: #FFF}
+.noticiasMenoresImg3 p {color: #FFF}
+.noticiasMenoresImg4 p {color: #FFF}
+
+.link h4 {
+	color: #000 !important;
+	font-weight: bold;
+}
+
+/* Mobile até 320  */
+@media screen and (max-width: 320px) {
+	.navbar-collapse {
+		margin-top: 10px !important;
+	}
+
+	.navbar-toggle {
+		margin-top: 20px !important;
+	}
+
+	.menuNav {
+		background: #242424 !important;
+		padding-left: 20px;
+		height: 365px;
+	}
+
+	.menuNav .navbar-nav li:first-child { 
+	    background-color: #ca1e1e;
+	    margin-right: 15px;
+    	margin-left: -5px;
+	}
+
+	.menuNav .navbar-nav li a {
+	    color: #FFF !important;
+	    padding-left: 30px !important; 
+	}
+
+	.pontoMaisAcessados {
+	    margin-top: 5px;
+	    text-align: right;
+	}
+}
